@@ -1,0 +1,4 @@
+spring.datasource.url=jdbc:postgresql://${container.ip}:${container.getMappedPort(5432)}/mydatabase
+spring.datasource.username=${container.username}
+spring.datasource.password=${container.password}
+spring.datasource.driver-class-name=org.postgresql.Driver
